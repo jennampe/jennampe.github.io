@@ -1,0 +1,66 @@
+body
+{
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding-left: 10vw;
+	background-color: #72d1dc;
+}
+
+h1
+{
+	font-family: 'Lobster Two', cursive;
+	color: #72d1dc;
+}
+.content-section
+{
+	padding-top: 50px;
+	min-height: 77vh;
+	background-color: #3d3d3d;
+}
+
+.navbar-site-custom
+{
+	background-color: #3d3d3d;
+}
+
+.navbar
+{	
+	border-bottom-color: white !important;
+	border-bottom-width: 5px;
+}
+
+.navbar-site-custom .navbar-nav .nav-link,
+.navbar-site-custom .navbar-nav a
+{
+  color: #72d1dc;
+}
+
+.navbar-site-custom .navbar-nav > li.active > a
+{
+  color: #bad8db;
+  background-color: #3d3d3d;
+}
+
+.navbar-site-custom .navbar-toggle:hover,
+.navbar-site-custom .navbar-toggle:focus {
+  background-color: #3d3d3d;
+}
+
+.navbar-site-custom .navbar-nav > li > a:focus, 
+.navbar-site-custom .navbar-nav > li > a:hover
+{
+  background-color: #3d3d3d;
+  color: #bad8db;
+}
+
+  
+@media only screen and (max-width: 576px)
+{
+	/* for small devices */
+	
+}
+@media only screen and (min-width: 577px)
+{
+	/* for PCs and large tablets */
+}
