@@ -12,11 +12,28 @@ h1
 	font-family: 'Lobster Two', cursive;
 	color: #72d1dc;
 }
+
+.animate-image
+{
+	border-radius: 25%;
+	position: absolute;
+	top: calc(25% + 50px);
+	left: calc(100% - 20vw);
+	height: 15vw;
+	width: 15vw;
+}
+
 .content-section
 {
 	padding-top: 50px;
-	min-height: 77vh;
+	min-height: 70vh;
 	background-color: #3d3d3d;
+	position: relative;
+}
+
+.content-section p
+{
+	width: 70vw;
 }
 
 .navbar-site-custom
