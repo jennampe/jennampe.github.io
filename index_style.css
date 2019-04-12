@@ -13,6 +13,41 @@ h1
 	color: #72d1dc;
 }
 
+a
+{
+	color: #bad8db;
+}
+
+a:link
+{
+	color: #bad8db;
+	text-decoration: underline;
+	text-decoration-style: solid;
+}
+
+a:visited
+{
+	color: white;
+	text-decoration: underline;
+	text-decoration-style: dash;
+}
+
+a:focus,
+a:hover,
+a:active
+{
+	color: #bad8db;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+}
+
+.title
+{
+	font-family: 'Lobster Two', cursive;
+	color: #72d1dc;
+	font-size: 6vh;
+}
+
 .animate-image
 {
 	border-radius: 25%;
@@ -25,16 +60,23 @@ h1
 
 .content-section
 {
-	padding-top: 50px;
 	min-height: 70vh;
 	background-color: #3d3d3d;
 	position: relative;
 }
 
-.content-section p
+.content-section p,
+.content-section li
 {
-	width: 70vw;
+	width: 60vw;
 }
+
+.emphasis
+{
+	font-weight: bold;
+	color: #72d1dc;	
+}
+
 
 .navbar-site-custom
 {
@@ -51,17 +93,20 @@ h1
 .navbar-site-custom .navbar-nav a
 {
   color: #72d1dc;
+  text-decoration: none;
 }
 
 .navbar-site-custom .navbar-nav > li.active > a
 {
   color: #bad8db;
   background-color: #3d3d3d;
+  text-decoration: none;
 }
 
 .navbar-site-custom .navbar-toggle:hover,
 .navbar-site-custom .navbar-toggle:focus {
   background-color: #3d3d3d;
+  font-variant: normal;
 }
 
 .navbar-site-custom .navbar-nav > li > a:focus, 
@@ -69,6 +114,8 @@ h1
 {
   background-color: #3d3d3d;
   color: #bad8db;
+  text-decoration: none;
+  font-variant: normal;
 }
 
   
