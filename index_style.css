@@ -122,9 +122,16 @@ a:active
 @media only screen and (max-width: 576px)
 {
 	/* for small devices */
-	
+	.mobile-only
+	{
+		display: inherit;
+	}
 }
 @media only screen and (min-width: 577px)
 {
 	/* for PCs and large tablets */
+	.mobile-only
+	{
+		display: none;
+	}
 }
